@@ -1,3 +1,4 @@
+using System.Windows.Forms;
 using System.Drawing.Text;
 using TestWins.Controller;
 namespace TestWins;
@@ -51,7 +52,7 @@ public partial class Form1 : Form
         clearFields();
     }
 
-    private void dataGridView1_CellClick(object sender, EventArgs e)
+    private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
     {
         if (dataGridView1.CurrentRow != null)
         {
