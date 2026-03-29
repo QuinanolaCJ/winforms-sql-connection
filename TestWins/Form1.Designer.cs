@@ -50,6 +50,7 @@ partial class Form1
         this.txtName = new System.Windows.Forms.TextBox();
         this.txtAge = new System.Windows.Forms.TextBox();
         this.txtCourse = new System.Windows.Forms.TextBox();
+        this.txtStudentId = new System.Windows.Forms.TextBox();
 
         this.btnAdd = new System.Windows.Forms.Button();
         this.btnUpdate = new System.Windows.Forms.Button();
@@ -90,6 +91,10 @@ partial class Form1
         this.txtCourse.Location = new System.Drawing.Point(20, 190);
         this.txtCourse.Size = new System.Drawing.Size(200, 23);
         this.txtCourse.PlaceholderText = "Course";
+
+        this.txtStudentId.Location = new System.Drawing.Point(20, 70);
+        this.txtStudentId.Size = new System.Drawing.Size(200, 23);
+        this.txtStudentId.PlaceholderText = "Student ID";
 
 
         // ===============
